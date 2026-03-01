@@ -1,9 +1,10 @@
 baseURL = "https://example.com/"
 languageCode = "en-us"
 title = "VoidWalker Reviews"
-theme = ""
-paginate = 10
 enableRobotsTXT = true
+
+[pagination]
+  pagerSize = 10
 
 [params]
   description = "Reviews from the void of entertainment"
