@@ -1,0 +1,30 @@
+baseURL = "https://example.com/"
+languageCode = "en-us"
+title = "VoidWalker Reviews"
+theme = ""
+paginate = 10
+enableRobotsTXT = true
+
+[params]
+  description = "Reviews from the void of entertainment"
+  author = "VoidWalker Reviews Team"
+  accent = "#00f0ff"
+  accentAlt = "#ff00aa"
+  bgDark = "#0a0a14"
+  bgCard = "#12121f"
+  textPrimary = "#e0e0f0"
+  textSecondary = "#8888aa"
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+
+[outputFormats.JSON]
+  mediaType = "application/json"
+  baseName = "sitemap"
+
+[sitemap]
+  changefreq = "daily"
+  priority = 0.8
+
+[markup.goldmark.renderer]
+  unsafe = true
